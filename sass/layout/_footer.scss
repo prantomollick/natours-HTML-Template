@@ -43,6 +43,12 @@
     &:not(:last-child) {
       margin-right: 1.5rem;
     }
+
+    @include respond(tab-port) {
+      &:not(:last-child) {
+        margin-right: 1.3rem;
+      }
+    }
   }
 
   &__link {
